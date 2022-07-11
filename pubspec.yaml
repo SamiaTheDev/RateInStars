@@ -1,6 +1,6 @@
 name: rate_in_stars
-description: A Flutter package to rate items in stars.
-version: 0.0.2
+description: A Flutter package to rate items in stars. The stars can be editable if the user inputs the rating, or non editable if you only want to display the rating to the user. The stars colour and size can be modified. Use this package to let your app users know the rating of an item. Simple and straightforward to use. Supports rating in decimals for fine control of the data.
+version: 0.0.3
 homepage: https://github.com/SamiaTheDev/RateInStars
 
 environment:

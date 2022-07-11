@@ -28,22 +28,22 @@ class RatingStars extends HookWidget {
           GestureDetector(
             onTap: editable
                 ? () {
-              shopReview.value = 1;
-            }
+                    shopReview.value = 1;
+                  }
                 : () {},
             child: shopReview.value > 0 && shopReview.value < 1
                 ? Icon(
-              Icons.star_half_rounded,
-              size: iconSize,
-              color: color,
-            )
+                    Icons.star_half_rounded,
+                    size: iconSize,
+                    color: color,
+                  )
                 : Icon(
-              Icons.star_rate_rounded,
-              size: iconSize,
-              color: shopReview.value >= 1 && shopReview.value <= 5
-                  ? color
-                  : const Color(0xffC4C4C4),
-            ),
+                    Icons.star_rate_rounded,
+                    size: iconSize,
+                    color: shopReview.value >= 1 && shopReview.value <= 5
+                        ? color
+                        : const Color(0xffC4C4C4),
+                  ),
           ),
           const SizedBox(
             width: 2,
@@ -51,27 +51,27 @@ class RatingStars extends HookWidget {
           GestureDetector(
             onTap: editable
                 ? () {
-              shopReview.value = 2;
-            }
+                    shopReview.value = 2;
+                  }
                 : () {},
             child: shopReview.value <= 1 || shopReview.value >= 2
                 ? Icon(
-              Icons.star_rate_rounded,
-              size: iconSize,
-              color: (shopReview.value > 1 || shopReview.value >= 2) &&
-                  shopReview.value <= 5
-                  ? color
-                  : const Color(0xffC4C4C4),
-            )
+                    Icons.star_rate_rounded,
+                    size: iconSize,
+                    color: (shopReview.value > 1 || shopReview.value >= 2) &&
+                            shopReview.value <= 5
+                        ? color
+                        : const Color(0xffC4C4C4),
+                  )
                 : shopReview.value > 1 && shopReview.value < 2
-                ? Icon(
-              Icons.star_half_rounded,
-              size: iconSize,
-              color: color,
-            )
-                : const SizedBox(
-              height: 0,
-            ),
+                    ? Icon(
+                        Icons.star_half_rounded,
+                        size: iconSize,
+                        color: color,
+                      )
+                    : const SizedBox(
+                        height: 0,
+                      ),
           ),
           const SizedBox(
             width: 2,
@@ -79,27 +79,27 @@ class RatingStars extends HookWidget {
           GestureDetector(
             onTap: editable
                 ? () {
-              shopReview.value = 3;
-            }
+                    shopReview.value = 3;
+                  }
                 : () {},
             child: shopReview.value <= 2 || shopReview.value >= 3
                 ? Icon(
-              Icons.star_rate_rounded,
-              size: iconSize,
-              color: (shopReview.value > 2 || shopReview.value >= 3) &&
-                  shopReview.value <= 5
-                  ? color
-                  :const Color(0xffC4C4C4),
-            )
+                    Icons.star_rate_rounded,
+                    size: iconSize,
+                    color: (shopReview.value > 2 || shopReview.value >= 3) &&
+                            shopReview.value <= 5
+                        ? color
+                        : const Color(0xffC4C4C4),
+                  )
                 : shopReview.value > 2 && shopReview.value < 3
-                ? Icon(
-              Icons.star_half_rounded,
-              size: iconSize,
-              color: color,
-            )
-                : const SizedBox(
-              height: 0,
-            ),
+                    ? Icon(
+                        Icons.star_half_rounded,
+                        size: iconSize,
+                        color: color,
+                      )
+                    : const SizedBox(
+                        height: 0,
+                      ),
           ),
           const SizedBox(
             width: 2,
@@ -107,27 +107,27 @@ class RatingStars extends HookWidget {
           GestureDetector(
             onTap: editable
                 ? () {
-              shopReview.value = 4;
-            }
+                    shopReview.value = 4;
+                  }
                 : () {},
             child: shopReview.value <= 3 || shopReview.value >= 4
                 ? Icon(
-              Icons.star_rate_rounded,
-              size: iconSize,
-              color: (shopReview.value > 3 || shopReview.value >= 4) &&
-                  shopReview.value <= 5
-                  ? color
-                  :const Color(0xffC4C4C4),
-            )
+                    Icons.star_rate_rounded,
+                    size: iconSize,
+                    color: (shopReview.value > 3 || shopReview.value >= 4) &&
+                            shopReview.value <= 5
+                        ? color
+                        : const Color(0xffC4C4C4),
+                  )
                 : shopReview.value > 3 && shopReview.value < 4
-                ? Icon(
-              Icons.star_half_rounded,
-              size: iconSize,
-              color: color,
-            )
-                : const SizedBox(
-              height: 0,
-            ),
+                    ? Icon(
+                        Icons.star_half_rounded,
+                        size: iconSize,
+                        color: color,
+                      )
+                    : const SizedBox(
+                        height: 0,
+                      ),
           ),
           const SizedBox(
             width: 2,
@@ -135,26 +135,26 @@ class RatingStars extends HookWidget {
           GestureDetector(
             onTap: editable
                 ? () {
-              shopReview.value = 5;
-            }
+                    shopReview.value = 5;
+                  }
                 : () {},
             child: shopReview.value <= 4 || shopReview.value >= 5
                 ? Icon(
-              Icons.star_rate_rounded,
-              size: iconSize,
-              color: shopReview.value > 4 && shopReview.value <= 5
-                  ? color
-                  :const Color(0xffC4C4C4),
-            )
+                    Icons.star_rate_rounded,
+                    size: iconSize,
+                    color: shopReview.value > 4 && shopReview.value <= 5
+                        ? color
+                        : const Color(0xffC4C4C4),
+                  )
                 : shopReview.value > 4 && shopReview.value < 5
-                ? Icon(
-              Icons.star_half_rounded,
-              size: iconSize,
-              color: color,
-            )
-                : const SizedBox(
-              height: 0,
-            ),
+                    ? Icon(
+                        Icons.star_half_rounded,
+                        size: iconSize,
+                        color: color,
+                      )
+                    : const SizedBox(
+                        height: 0,
+                      ),
           ),
         ],
       ),

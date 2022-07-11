@@ -1,5 +1,5 @@
-#Rate In Stars
-Rate In Stars allows you to rate items in your Flutter app.
+# Rate In Stars
+A Flutter package to rate items in stars. The stars can be editable if the user inputs the rating, or non editable if you only want to display the rating to the user.
 
 
 ## Installation
@@ -7,9 +7,9 @@ Rate In Stars allows you to rate items in your Flutter app.
 1. Add the latest version of package to your pubspec.yaml (and run 'dart pub get'):
 ```yaml
 dependencies:
-    rate_in_stars: ^0.0.1
+    rate_in_stars: ^0.0.3
 ```
-2. Import the package and ise it in your Flutter app.
+2. Import the package and use it in your Flutter app.
 ```dart
 import 'package:rate_in_stars/rate_in_stars.dart';
 ```
@@ -46,6 +46,7 @@ class RatingStarsWidget extends StatelessWidget {
 ```
 
 ## Next Steps
- - Accept different icon types 
+ - Accept different icon types
+ - Edit with decimal values 
 
 
